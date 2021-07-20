@@ -11,10 +11,6 @@ namespace Engine
         [STAThread]
         static void Main(string[] args)
         {
-            form.SuspendLayout();
-            form.FormLayout();
-            form.ResumeLayout(false);
-            form.PerformLayout();
             Application.Run(form);
         }
     }
